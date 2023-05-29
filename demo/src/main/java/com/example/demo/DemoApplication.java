@@ -18,12 +18,14 @@ public class DemoApplication {
         String serverPort = "8080";
 
         try {
+            // pobranie numeru portu z pliku konfiguracyjnego 
             prop.load(DemoApplication.class.getClassLoader().getResourceAsStream("application.properties"));
             serverPort = prop.getProperty("server.port");
         }
         catch (IOException e) {
             e.printStackTrace();
         }
+        // wyswietlenie daty uruchomienia, autora oraz portu
         System.out.println("data uruchomienia: " + LocalDateTime.now() + "\nAutor: Cezary Płatek\nport tcp: "+ serverPort);
         SpringApplication.run(DemoApplication.class, args);
     }
