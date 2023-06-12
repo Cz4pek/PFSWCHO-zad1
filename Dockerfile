@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-alpine as builder
+FROM openjdk:17-oracle as builder
 MAINTAINER Cezary_Płatek
 #ustawienie folderu roboczego
 WORKDIR /app
@@ -11,7 +11,7 @@ RUN chmod +x mvnw
 #zbudowanie jar na podstawie plików źródłowych 
 RUN ./mvnw clean package
 
-FROM openjdk:17-jdk-alpine as runner
+FROM openjdk:17-oracle as runner
 MAINTAINER Cezary_Płatek
 #przekopiowanie pliku jar z aplikacją z buildera
 COPY --from=builder /app/target/demo-0.0.1-SNAPSHOT.jar /app/demo-0.0.1-SNAPSHOT.jar 
