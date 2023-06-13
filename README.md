@@ -34,3 +34,9 @@ Zrzut ekranu przedstawiający udane wykonanie łańcucha
 Zrzut ekranu przedstawiający obraz, który został zbudowany i przesłany na repozytorium dockerhub przez łańcuch, w sekcji OS/ARCH możemy zobaczyć obie architektury, na które miał zostać zbudowany do wyboru
 
 ![image](https://github.com/Cz4pek/PFSWCHO-zad1/assets/61994338/2ea61462-b6e9-4e77-a3c3-e2e69605485c)
+
+## Polecenie dodatkowe
+
+Plik konfiguracyjny łańcucha github actions wdrażający aplikacje przy użyciu aws beanstalk znajduje się pod ścieżką .github/workflows/deploy_template.yml. 
+
+W celu uruchamiania łańcucha został stworzony specjalny użytkownik IAM wraz z kluczaem dostępowym.
