@@ -14,3 +14,7 @@ Zrzut ekranu działającej aplikacji w konsoli AWS
 Zrzut ekranu działającej aplikacji
 
 ![image](https://github.com/Cz4pek/PFSWCHO-zad1/assets/61994338/0618e9d7-9391-485b-a778-84a1a6c0fe99)
+
+Zrzut ekranu z usługi S3 zawierającej paczkę zbudowaną przez github actions 
+
+![image](https://github.com/Cz4pek/PFSWCHO-zad1/assets/61994338/c257c4ea-5051-4a5e-98c7-7b1332c76427)
