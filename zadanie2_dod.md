@@ -12,4 +12,5 @@ Zrzut ekranu działającej aplikacji w konsoli AWS
 ![image](https://github.com/Cz4pek/PFSWCHO-zad1/assets/61994338/80363098-89ec-423c-bca2-94a0c4e898f6)
 
 Zrzut ekranu działającej aplikacji
+
 ![image](https://github.com/Cz4pek/PFSWCHO-zad1/assets/61994338/0618e9d7-9391-485b-a778-84a1a6c0fe99)
